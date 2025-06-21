@@ -1,0 +1,20 @@
+# Core UI
+streamlit>=1.30.0
+
+# RSS & Web
+feedparser>=6.0.10
+requests>=2.31.0
+python-dateutil>=2.8.2
+
+# LangChain + Google Gemini
+langchain>=0.1.20
+langchain-google-genai>=0.0.8
+langchain-community>=0.0.35
+
+# Vector DB
+chromadb>=0.4.24
+
+# Optional (safe defaults for parsing & NLP)
+tqdm>=4.66.2
+
+# Other dependencies already covered via langchain/streamlit
